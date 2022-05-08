@@ -1,8 +1,8 @@
 #if os(Linux)
 import FoundationNetworking
-#else
-import Foundation
 #endif
+
+import Foundation
 
 let DEFAULT_MIME_TYPE = "application/octet-stream"
 let mimeTypes = [
